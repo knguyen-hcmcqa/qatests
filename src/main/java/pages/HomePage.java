@@ -37,7 +37,7 @@ public class HomePage extends BasePage {
         return new PageFactory().initElements(driver, LoginPage.class);
     }
 
-    public void verifyApprovedRequests(int expectedNum) {
+    public void verifyNumOfApprovedRequests(int expectedNum) {
         int actualNum = elementsApproved.size();
 
         Assert.assertEquals(actualNum, expectedNum);

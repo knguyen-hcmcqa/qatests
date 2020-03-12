@@ -20,8 +20,8 @@ public class LoginPage extends BasePage {
     public WebElement loginButton;
 
 
-    public void login (String pusername, String ppassword){
-        writeText(username,pusername);
+    public void login(String pusername, String ppassword) {
+        writeText(username, pusername);
         writeText(password, ppassword);
         click(loginButton);
     }

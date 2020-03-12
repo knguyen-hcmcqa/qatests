@@ -5,7 +5,7 @@ import pages.HomePage;
 
 public class HomePageTests extends BaseTest {
     @Test(priority = 0)
-    public void verifyApprovedRequests () throws InterruptedException {
+    public void verifyNumOfApprovedRequests () throws InterruptedException {
         page.GetInstance(HomePage.class).goToHomePage();
 
         page.GetInstance(HomePage.class).
@@ -13,6 +13,8 @@ public class HomePageTests extends BaseTest {
 
         Thread.sleep(500);
 
-        page.GetInstance(HomePage.class).verifyApprovedRequests(5);
+        int expectedNumOfApprovedRequests = 5;
+
+        page.GetInstance(HomePage.class).verifyNumOfApprovedRequests(expectedNumOfApprovedRequests);
     }
 }
