@@ -11,7 +11,7 @@ public class HomePageTests extends BaseTest {
         page.GetInstance(HomePage.class).
                 goToLoginPage().login("admin@test.com", "test123");
 
-        Thread.sleep(500);
+        Thread.sleep(2000);
 
         int expectedNumOfApprovedRequests = 5;
 
