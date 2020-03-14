@@ -1,4 +1,4 @@
-# Automation tests
+# Automation Tests
 1. Get the source code from Github
 git clone https://github.com/knguyen-hcmcqa/qatests.git
 
