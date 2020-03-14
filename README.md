@@ -1,6 +1,6 @@
 # Automation Tests
 1. Get the source code from Github
-git clone https://github.com/knguyen-hcmcqa/qatests.git
+- git clone https://github.com/knguyen-hcmcqa/qatests.git
 
 2. Open IntelliJ IDEA then open the project
 
